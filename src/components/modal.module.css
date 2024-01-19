@@ -1,0 +1,18 @@
+.Modal {
+  position: fixed;
+  inset: 0;
+  padding-top: 5%;
+  background: linear-gradient(
+    315deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+}
+
+.modalContent {
+  background: white;
+  max-width: 400px;
+  margin: auto;
+  padding: 40px;
+  box-shadow: 10px 5px 5px lightgray;
+}
